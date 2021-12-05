@@ -76,8 +76,8 @@ ___________________________________________ */
    body {
       margin: 0;
       padding: 0;
-      color: #626262;
-      font-family: 'Sanchez', serif;
+      color: #231F20;
+      font-family: 'Roboto', serif;
    }
 
    h1, h2, h3, h4, p {
@@ -240,7 +240,7 @@ ___________________________________________ */
       .logo {
          grid-column: 1 / span 1;
          padding: 1em;
-         margin: auto;
+         margin-left: 45em;
          width: 100%;
       }
 
@@ -250,7 +250,7 @@ ___________________________________________ */
       .nav {
          grid-column: 2 / span 3;
          padding-top: 3em;
-         margin: auto;
+         margin-left: auto;
          background-color: #D10000;
       }
 
@@ -380,11 +380,12 @@ ___________________________________________ */
    grid-template-rows: repeat(2, 1fr);
    }
 
-   .about_info{
+   .about-info{
       grid-column: 1;
       grid-row: 1;
+      font-size: 2.5em;
    }
-   
+
    .map{
       grid-column: 1;
       grid-row: 2;  
@@ -402,11 +403,16 @@ ___________________________________________ */
       display:grid; 
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
+      justify-content: space-evenly;
+      row-gap: 2em;
+      column-gap: 2em;
+      margin-left: 10em;
       }
    
-      .study_info{
-         grid-column: 2;
+      .study-info{
+         grid-column: 1/span 3;
          grid-row: 1;
+         font-size: 2.5em;
       }
       
       .study1{
@@ -452,11 +458,16 @@ ___________________________________________ */
       display:grid; 
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
+      justify-content: space-evenly;
+      row-gap: 1em;
+      column-gap: 1em;
+      margin-left: 1em;
       }
    
-      .residence_info{
-         grid-column: 2;
+      .residence-info{
+         grid-column: 1/span 3;
          grid-row: 1;
+         font-size: 2.5em;
       }
       
       .residence1{
@@ -487,11 +498,15 @@ ___________________________________________ */
       display:grid; 
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
+      justify-content: space-evenly;
+      row-gap: 2em;
+      column-gap: 2em;
       }
    
       .fsu{
          grid-column: 2;
          grid-row: 1;
+         font-size: 5em;
       }
       
       .fsu-desk{
@@ -501,7 +516,9 @@ ___________________________________________ */
 
       .fsu-info{
          grid-column: 2;
-         grid-row: 3/span 2;  
+         grid-row: 2/span 2;
+         font-size: 2.7em;
+         margin-top: 5em;
       }
 
       .fancard{
@@ -522,6 +539,10 @@ ___________________________________________ */
       display:grid; 
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
+      justify-content: space-evenly;
+      row-gap: 2em;
+      column-gap: 2em;
+      margin-left: 10em;
       }
    
       .food1{
@@ -530,8 +551,11 @@ ___________________________________________ */
       }
       
       .oasis-info{
-         grid-column: 2/span 2;
-         grid-row: 1;  
+         grid-column: 2;
+         grid-row: 1;
+         font-size: 2em;
+         margin-top: 1em;
+         margin-right: 5em;  
       }
 
       .food2{
@@ -559,14 +583,20 @@ ___________________________________________ */
    _____________________________________ */
 
 
-   .oasis-info{
-      width: 50%;  
+   .wellness-info{
+      width: 80%;
+      font-size: 3em;
+      margin-left: 5em;  
    }
 
    .wellness-grid{
       display:grid; 
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(1, 1fr);
+      justify-content: space-evenly;
+      row-gap: 2em;
+      column-gap: 2em;
+      margin-left: 5em;
       }
    
       .gym{
@@ -596,51 +626,71 @@ ___________________________________________ */
       .contact1{
          grid-column: 1;
          grid-row: 1;
+         Font-size: 3em;
+         margin-left: 15em;
       }
       
       .contact-num1{
          grid-column: 1;
-         grid-row: 2;  
+         grid-row: 2; 
+         font-size: 2em;
+         margin-left: 25em;
       }
 
       .contact2{
          grid-column: 1;
          grid-row: 3;
+         font-size: 3em;
+         margin-left: 15em;
       }
       
       .contact-num2{
          grid-column: 1;
-         grid-row: 4;  
+         grid-row: 4; 
+         font-size: 2em;
+         margin-left: 25em;
       }
 
       .contact3{
          grid-column: 1;
          grid-row: 5;
+         font-size: 3em;
+         margin-left: 15em;
       }
       
       .contact-num3{
          grid-column: 1;
-         grid-row: 6;  
+         grid-row: 6;
+         font-size: 2em;
+         margin-left: 20em;
       }
 
       .contact4{
          grid-column: 1;
          grid-row: 7;
+         font-size: 3em;
+         margin-left: 17em;
       }
       
       .contact-num4{
          grid-column: 1;
-         grid-row: 8;  
+         grid-row: 8; 
+         font-size: 2em;
+         margin-left: 30em;
       }
 
       .contact5{
          grid-column: 1;
          grid-row: 9;
+         font-size: 3em;
+         margin-left: 17em;
       }
       
       .contact-num5{
          grid-column: 1;
-         grid-row: 10;  
+         grid-row: 10;
+         font-size: 2em;
+         margin-left: 30em; 
       }
 
 
@@ -663,6 +713,8 @@ ___________________________________________ */
       .address{
          grid-column: 1;
          grid-row: 1;
+         font-size: 1.5em;
+         color: #fff
          
       
       }
@@ -670,12 +722,16 @@ ___________________________________________ */
       .ad{
          grid-column: 2;
          grid-row: 1;
+         font-size: 1.5em;
+         color: #fff
       
       }
       
       .contact{
          grid-column: 1/span 2;
          grid-row: 2;
+         font-size: 1.5em;
+         color: #fff
       
       }
 
